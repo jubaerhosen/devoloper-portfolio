@@ -32,6 +32,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .nav-title{
     color: #181818;
@@ -90,7 +91,10 @@ nav a {
     color: #757575;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section title */
 .about{
@@ -99,4 +103,22 @@ nav a {
     background: #FFF8F3;
     margin-top: 130px;
 
+}
+/* about-info-container */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-description{
+    counter-reset: #474747;
+    /* font-size: 20px;
+    font-weight: 700; */
 }
